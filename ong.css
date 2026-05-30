@@ -79,7 +79,7 @@ nav a:hover, nav a.active {
     flex: 1;
 }
 
-/* Modificado para aceitar o comportamento de empurrar o Y */
+
 .btn, .btn-ver-mais {
     display: inline-block;
     padding: 0.75rem 1.5rem;
@@ -92,7 +92,7 @@ nav a:hover, nav a.active {
     text-align: center;
     cursor: pointer;
     transition: background 0.3s;
-    margin-top: auto; /* Mágica do Flexbox para travar o eixo Y na base */
+    margin-top: auto; 
     width: 100%;
     max-width: 180px;
 }
