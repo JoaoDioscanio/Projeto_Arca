@@ -25,7 +25,7 @@ body {
 }
 
 
-/* HEADER */
+
 
 header {
     background-color: var(--primary-color);
@@ -76,7 +76,7 @@ nav a.active {
 }
 
 
-/* CONTAINER */
+
 
 .container {
     max-width: 1200px;
@@ -86,7 +86,7 @@ nav a.active {
 }
 
 
-/* FILTROS */
+
 
 .filtros-adocao {
     background-color: var(--primary-color);
@@ -134,7 +134,7 @@ nav a.active {
 }
 
 
-/* TOPO */
+
 
 .topo-adocao {
     display: flex;
@@ -153,7 +153,7 @@ nav a.active {
 }
 
 
-/* GRID */
+
 
 .animais-grid {
     display: grid;
@@ -162,7 +162,7 @@ nav a.active {
 }
 
 
-/* CARD */
+
 
 .animal-card {
     background-color: var(--text-light);
@@ -227,7 +227,7 @@ nav a.active {
 }
 
 
-/* FOOTER */
+
 
 footer {
     background-color: var(--primary-color);
@@ -253,58 +253,5 @@ footer p {
 }
 
 
-/* RESPONSIVO */
 
-@media(max-width: 1024px){
 
-    .animais-grid{
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-}
-
-@media(max-width: 768px){
-
-    header{
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    nav ul{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .filtros-adocao{
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    .filtro-grupo select{
-        width: 100%;
-    }
-
-    .btn-buscar{
-        width: 100%;
-    }
-
-    .topo-adocao{
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 1rem;
-    }
-
-    .animais-grid{
-        grid-template-columns: 1fr;
-    }
-
-    footer{
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    footer img{
-        position: static;
-    }
-
-}

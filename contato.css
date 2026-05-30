@@ -215,28 +215,6 @@ nav a.active {
 .btn-enviar:hover {
     background-color: var(--laranja-hover);
 }
-footer {
-    background-color: var(--azul-escuro);
-    color: var(--text-light);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    padding: 20px;
-    margin-top: 3rem;
-}
-
-footer img {
-    position: absolute;
-    left: 20px;
-    width: 120px;
-}
-
-footer p {
-    margin: 0;
-    color: white;
-    text-align: center;
-}
 @media (max-width: 768px) {
     header {
         padding: 12px 4%;
@@ -266,8 +244,5 @@ footer p {
 
     .main-container {
         margin: 20px auto;
-    }
-    footer p{
-        font-size: 50%;
     }
 }

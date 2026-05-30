@@ -115,7 +115,7 @@ footer {
     justify-content: center;
     position: relative;
     padding: 20px;
-    }
+}
 
 footer img {
     position: absolute;
@@ -164,6 +164,7 @@ footer p {
     justify-content: center;  
     width: 100%;
 }
+
 .action-card {
     background: var(--text-light);
     border: 1px solid var(--border-color);
@@ -171,22 +172,23 @@ footer p {
     padding: 2rem 1rem;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;   
+    align-items: center;     
     flex: 1 1 calc(25% - 1.5rem); 
-    min-width: 220px;      
+    min-width: 220px;       
     max-width: 280px;        
     min-height: 340px;     
     box-sizing: border-box;
-    display: grid;
-    grid-template-rows: max-content 1fr max-content;
-    justify-items: center;
-    gap: 1rem;           
 }
 
-.action-card > a {
-    display: block;
-    width: 100%;
+.action-card h3 { 
+    margin-top: 15px;
+    margin-bottom: 1.5rem; 
+    color: var(--primary-color); 
+    font-size: 1.1rem;
+    line-height: 1.4;
 }
-
 
 .action-card .btn, 
 .action-card .btn-ver-mais {
